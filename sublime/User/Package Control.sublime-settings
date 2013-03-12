@@ -1,0 +1,11 @@
+{
+	"installed_packages":
+	[
+		"Package Control",
+		"Theme - Soda"
+	],
+	"repositories":
+	[
+		"https://sublime.wbond.net/testing/packages.json"
+	]
+}

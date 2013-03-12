@@ -1,0 +1,6 @@
+{
+	"cmd": ["source ../env.sh && make -j5 package-device-release && devstage/host/darwin/x86/usr/bin/blackberry-deploy -installApp 169.254.0.1 -password root -launchApp nto/arm/so.le-v7/sys.pictures.bar"],
+	"shell": true,
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"working_dir": "/Users/mijohansson/work/pictures/pictures/" 
+}
